@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+
+
+
+    <h1>
+        <div class="heading">
+            <p style="font-family: monospace">Litmus</p>
+        </div>
+    </h1>
+</head>
+
+
+
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="MyVideo">
+            <source src="minimalist.mp4" type="video/mp4">
+            <video autoplay muted loop id="background-video">
+                <source src="background.mp4" type="video/mp4">
+                <source src="background.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
