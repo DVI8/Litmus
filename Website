@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+
+
+
+    <h1>
+        <div class="heading">
+            <p style="font-family: monospace">Litmus</p>
+        </div>
+    </h1>
+</head>
+
+
+
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="MyVideo">
+            <source src="minimalist.mp4" type="video/mp4">
+            <video autoplay muted loop id="background-video">
+                <source src="background.mp4" type="video/mp4">
+                <source src="background.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+
+<div class="paragraph">
+        <p>Science is broken, let's fix it.</p>
+    </div>
+    <div class="button">
+        <a href="index (copy).html" class="button">About Litmus</a>
+    </div>
+
+    <style>
+        .paragraph {
+            font-family: monospace;
+            color: #CFFF04;
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        #MyVideo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+        }
+
+
+
+
+        .heading {
+            color: #CFFF04;
+            font-size: 59px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .button {
+            color: #CFFF04;
+            font-size: 19px;
+            cursor: pointer;
+            font-family: monospace;
+            font-weight: bold;
+            float-right: 30px; 
+
+
+
+        }
+    </style>
+</body>
+
+</html>
